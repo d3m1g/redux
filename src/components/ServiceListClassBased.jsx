@@ -57,12 +57,6 @@ const mapStateToProps = (state) => ({
  items: state.serviceList,
 });
 
-// const mapDispatchToProps = (dispatch) => {
-//   return {
-//     removeService: id => dispatch(removeService(id))
-//   }
-// };
-
 const mapDispatchToProps = ({
  editService,
  removeService,
